@@ -1,0 +1,648 @@
+
+@media (max-width: 1399.99px) {
+    .div3-title {
+        font-size: 26px;
+    }
+
+    .subdiv-text {
+        font-size: 15px;
+    }
+
+    .div3-two-info-holder {
+        margin-top: 55px;
+    }
+
+    .main-part4-div4{
+        position: relative;
+    }
+    
+    .line-steps {
+        position: absolute;
+        top: 230px;
+        left: 360px;
+    }
+    
+    .line2-steps {
+        position: absolute;
+        top: 230px;
+        left: 750px;
+    }
+}
+
+@media (max-width: 1199.99px) {
+    .registration-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-part1-div1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-part1-div1 {
+        gap: 90px;
+    }
+
+    .main-part1 {
+        min-height: 540px;
+    }
+
+    .form h3 {
+        margin: 0 auto;
+    }
+
+    .steps-holder {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .step-2 {
+        margin: 0;
+    }
+
+    .step-1 {
+        margin: 0;
+    }
+
+    .line-steps, .line2-steps {
+        display: none;
+    }
+
+    .main-part4-div4 h3 {
+        font-size: 32px;
+    }
+
+    .step-1 p {
+        font-size: 22px;
+    }
+
+    .step-2 p {
+        font-size: 22px;
+    }
+
+    .step-3 p {
+        font-size: 22px;
+    }
+
+    .main-part4-div4 {
+        gap: 50px;
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 991.99px) {
+    .car-trade {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+
+    .registration-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-part1 {
+        min-height: 500px;
+    }
+
+    .main-part1-div1 {
+        gap: 50px;
+    }
+
+    .form h3 {
+        margin: 0 auto;
+    }
+
+    .main-part2-div2 h3 {
+        font-size: 29px;
+    }
+
+    .info-1-title, .info-2-title, .info-3-title {
+        font-size: 20px;
+    }
+
+    .info-1-text, .info-2-text, .info-3-text {
+        font-size: 15px;
+    }
+
+    .div3-title {
+        margin-bottom: 50px;
+        font-size: 23px;
+    }
+
+    .subdiv-text {
+        font-size: 13px;
+    }
+
+    .main-part3-div3 {
+        padding: 60px 0;
+    }
+
+    .div3-two-info-holder {
+        gap: 25px;
+    }
+
+    .two-info-holder-left, .two-info-holder-right  {
+        gap: 35px;
+    }
+
+    .main-part4-div4 h3 {
+        font-size: 30px;
+    }
+
+    .step-1 p {
+        font-size: 20px;
+    }
+
+    .step-2 p {
+        font-size: 20px;
+    }
+
+    .step-3 p {
+        font-size: 20px;
+    }
+
+    .main-part4-div4 {
+        gap: 40px;
+        padding-top: 50px;
+    }
+
+    .container4 {
+        padding: 0 120px;
+    }
+}
+
+@media (max-width: 767.99px) {
+    .nav {
+        position: relative;
+    }
+
+    .nav__menu-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav__content-elements2-links {
+        position: absolute;
+        flex-direction: column;
+        background-color: #FFF;
+        top: -500px;
+        right: 0;
+        transition: .5s;
+        width: 255px;
+        align-items: center;
+        opacity: 0;
+        height: 0;
+    }
+
+    .nav__menu:hover .nav__content-elements2-links {
+        top: 100%;
+        height: max-content;
+        opacity: 1;
+    }
+
+    .location, .phone-number, .line {
+        display: none;
+    }
+
+    .nav__content-elements {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .registration-buttons {
+        width: fit-content;
+        margin-top: 15px;
+    }
+
+    .registration-buttons-content {
+        font-size: 14px;
+        padding: 14px 25px;
+    }
+
+    .nav__menu {
+        position: absolute;
+        right: 15px;
+        top: 43px;
+    }
+
+    .dropdown__list {
+        min-width: 250px;
+    }
+
+    .dropdown__list-link {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .nav__content-elements2-links a {
+        font-size: 16px;
+    }
+
+    /*  */
+    .main-part1 {
+        min-height: 450px;
+    }
+
+    .main-part1-div1 {
+        gap: 40px;
+    }
+
+    .left-content h2 {
+        font-size: 45px;
+    }
+
+    .form h3 {
+        margin: 0 auto;
+    }
+
+    /*  */
+
+    .main-part2-div2 h3 {
+        font-size: 27px;
+    }
+
+    .info-1-title, .info-2-title, .info-3-title {
+        font-size: 18px;
+    }
+
+    .info-1-text, .info-2-text, .info-3-text {
+        font-size: 14px;
+    }
+
+    .two-info-holder-left, .two-info-holder-right  {
+        gap: 20px;
+    }
+
+    .div3-title {
+        margin-bottom: 15px;
+    }
+
+    .main-part4-div4 h3 {
+        font-size: 25px;
+    }
+
+    .step-1 p {
+        font-size: 18px;
+    }
+
+    .step-2 p {
+        font-size: 18px;
+    }
+
+    .step-3 p {
+        font-size: 18px;
+    }
+
+    .main-part4-div4 {
+        gap: 35px;
+        padding: 40px;
+    }
+
+    .container4 {
+        padding: 0 70px;
+    }
+
+    .main-part5-div5 {
+        padding: 50px 0 60px 0;
+        gap: 35px;
+    }
+
+    .main-part5-div5 h3 {
+        font-size: 29px;
+    }
+
+    .comment-1 {
+        padding: 41px 51px 28px 41px;
+        max-width: 400px;
+    }
+
+    .comment-2 {
+        padding: 41px 51px 28px 41px;
+        max-width: fit-content;
+    }
+
+    .comment-1-decsr {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .footer-upper__content {
+        gap: 50px;
+    }
+
+    .footer-link {
+        font-size: 12px;
+    }
+
+    .long-link {
+        width: max-content;
+    }
+
+    .footer-links {
+        gap: 10px;
+    }
+
+    .down__content-1 {
+        margin-right: auto;
+    }
+
+    .down__content-2 {
+        margin-right: auto;
+    }
+
+    .down__content-3 {
+        margin-right: auto;
+    }
+
+    .footer-down__content {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 575.99px) {
+    .dropdown__list {
+        min-width: 200px;
+    }
+
+    .dropdown__list-link {
+        font-size: 14px;
+        padding: 9px;
+    }
+
+    .registration-buttons {
+        width: fit-content;
+        margin-top: 13px;
+    }
+
+    .registration-buttons-content {
+        font-size: 12px;
+        padding: 12px 20px;
+    }
+
+    .car-image {
+        display: none;
+    }
+
+    .form h3 {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        padding-bottom: 5px;
+    }
+
+    .form-send {
+        padding: 14px 128px;
+    }
+
+    .main-part2-div2 h3 {
+        font-size: 27px;
+        max-width: 334px;
+        margin: 0 auto;
+    }
+
+    .info-1-title, .info-2-title, .info-3-title {
+        font-size: 16px;
+        margin-right: auto;
+    }
+
+    .info-1-text, .info-2-text, .info-3-text {
+        font-size: 13px;
+        margin-top: 10px;
+        text-align: start;
+    }
+
+    .info-1-text {
+        max-width: 214px;
+    }
+
+    .info-2-text {
+        max-width: 202px;
+    }
+
+    .info-3-text {
+        max-width: 225px;
+    }
+
+    .info-1-title {
+        max-width: 139px;
+    }
+
+    .info-2-title {
+        max-width: 167px;
+    }
+
+    .info-3-title {
+        max-width: 194px;
+    }
+
+    .three-info-holder {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        margin-top: 31px;
+    }
+
+    .info-1, .info-2, .info-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .text-title {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .form-send {
+        padding: 14px 128px;
+    }
+
+    .left-content h2 {
+        font-size: 41px;
+        max-width: 312px;
+        margin-right: auto;
+    }
+
+    .main-part3-div3 {
+        padding: 30px 0;
+        margin-top: 40px;
+        margin-right: 102px;
+        display: flex;
+        flex-direction: column;
+        gap: 39px;
+    }
+
+    .main-part3-div3 {
+        margin-top: 0;
+        gap: 30px;
+    }
+
+    .div3-two-info-holder  {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0;
+    }
+
+    .two-info-holder-left, .two-info-holder-right  {
+        gap: 30px;
+    }
+
+    .div3-title {
+        font-size: 27px;
+        max-width: 384px;
+    }
+
+    .main-part4-div4 h3 {
+        font-size: 27px;
+    }
+
+    .step-1 p {
+        font-size: 16px;
+    }
+
+    .step-2 p {
+        font-size: 16px;
+    }
+
+    .step-3 p {
+        font-size: 16px;
+    }
+
+    .main-part4-div4 {
+        gap: 30px;
+        padding: 30px;
+        margin-top: 72px;
+    }
+
+    .steps-holder {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .step-1 p {
+        max-width: 117px;
+    }
+
+    .step-1, .step-2, .step-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+    }
+
+    .step-1 {
+        max-width: 235px;
+    }
+
+    .step-2 {
+        max-width: 189px;
+    }
+
+    .step-3 {
+        max-width: 285px;
+    }
+
+    .comment-2 {
+        display: none;
+    }
+
+    .main-part4-div4 h3 {
+        max-width: 390px;
+        margin: 0 auto;
+    }
+
+    .main-part5-div5 {
+        padding: 30px 0;
+        gap: 35px;
+    }
+
+    .main-part5-div5 h3 {
+        font-size: 29px;
+    }
+
+    .comment-1 {
+        padding: 20px 20px 80px 20px;
+        max-width: max-content;
+    }
+
+    .comments-holder {
+        padding: 0 20px;
+        gap: 0;
+    }
+
+    .comment-1-decsr {
+        margin: 0;
+        margin-top: 21px;
+        max-width: max-content;
+    }
+
+    .dots {
+        display: none;
+    }
+
+    .footer {
+        padding: 20px 20px 40px 20px;
+    }
+
+    .footer-line {
+        display: none;
+    }
+
+    .footer-upper__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 10px;
+        max-width: 390px;
+        flex-wrap: wrap;
+    }
+
+    .footer-down__content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .steps-holder {
+        align-items: center;
+    }
+
+    .step-1, .step-2, .step-3 {
+        max-width: 300px;
+    }
+
+    .main-part5-div5 {
+        display: flex;
+        align-items: center;
+        padding: none;
+    }
+
+    .main-part5-div5 h3 {
+        max-width: 300px;
+    }
+}
